@@ -1,0 +1,1 @@
+# This is a project to practice and showcase classification algorithms
