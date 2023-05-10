@@ -44,10 +44,10 @@ I chose to use:
     * F1: ```.7523```
     * AUC: ```.90```
 * Random Forest Classifier
-    * Accuracy: ```.8885```
-    * Recall: ```.8495```
-    * Precision: ```.8294```
-    * F1: ```.8393```
+    * Accuracy: ```.8902```
+    * Recall: ```.8738```
+    * Precision: ```.8182```
+    * F1: ```.8451```
     * AUC: ```.96```
 * LightGBM Classifier
     * Accuracy: ```.8885```
@@ -56,14 +56,14 @@ I chose to use:
     * F1: ```.8438```
     * AUC: ```.97```
 * LightGBM Classifier with PCA and Feature Engineering
-    * Accuracy: ```.8286```
-    * Recall: ```.8137```
-    * Precision: ```.7186```
-    * F1: ```.7632```
-    * AUC: ```.91```
+    * Accuracy: ```.8536```
+    * Recall: ```.8431```
+    * Precision: ```.7544```
+    * F1: ```.7963```
+    * AUC: ```.92```
 
 **Notes**
-> Logistic Regression was not a good fit for this dataset. LightGBM was the best model after tuning. Using PCA and Feature Engineering lost too much information and was detrimental to our scores
+> Logistic Regression was not a good fit for this dataset. LightGBM was the best model after tuning. Using PCA and Feature Engineering lost too much information and was detrimental to our scores. RandomForest produced a strong model as well, but it was slightly worse at Recall, which was our main metric for model performance. 
 
 ## Best Model
 
